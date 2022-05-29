@@ -1,0 +1,46 @@
+/*body {
+
+  background-image: url("background_signup.jpg");
+  overflow: hidden;
+
+}
+
+#container {
+
+display: flex;
+justify-content: center;
+height: 80%; 
+width: 40%;
+background-color:rgb(50, 55, 59);
+margin: 0;
+background-size: cover;
+background-position: center;
+position: relative;
+
+}
+
+#container div, span {
+
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 1;
+
+}
+*/
+
+.visualizza_span{
+    color: red;
+    visibility: visible;
+    font-size: 0.5em;
+}
+
+.hidden{
+    visibility: hidden;
+    font-size: 0.5em;
+    color: red;
+}
+
+.error{
+    border:1px solid red;
+    border-color: solid red;
+}
