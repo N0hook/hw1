@@ -1,0 +1,216 @@
+:root {
+  --primary-color: rgb(41, 41, 41); 
+}
+  
+  a 
+  {
+      cursor: pointer;
+  }
+
+  #button{
+
+      padding: 2px;
+      margin-right: 15px;
+      border: 2px ridge rgb(255, 255, 255);
+      border-radius: 100px;
+      background-color: var(--primary-color);
+      z-index: 1;
+  }
+
+  #button:hover {
+
+    background-color: whitesmoke;
+    color:rgb(0, 0 , 0);
+    border: 2px solid var(--primary-color);
+
+  }
+
+  #logo {
+
+    color:rgb(255, 255, 255);
+    margin-left: 7px;
+    font-family: 'Russo One', sans-serif;
+  }
+
+  #logo em {
+
+  color:rgb(255, 255, 255);
+  font-size: 15px;
+  margin-left: 8px;
+  font-family: 'Kalam', cursive;
+
+  }
+
+  body {
+
+  background-color:rgb(50, 55, 59);
+  color:rgb(210, 213, 216);
+  margin: 0;
+  }
+
+
+  #links a{
+
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-align: right;
+  padding: 4px;
+  font-family: 'Familjen Grotesk', sans-serif;
+  }
+
+  header nav {
+
+  top: 0px;
+  left: 0;
+  right: 0;
+
+  height: 60px;
+
+  background-color: rgba(0, 0 , 0 , 0.7);
+
+  font-size: 18px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  z-index: 1;
+
+  }
+
+
+  #Menu {
+
+      display: none;
+
+    }
+    
+
+    #Menu div {
+      width: 25px;
+      height: 3px;
+      background-color: whitesmoke;
+      margin: 6px 10px;
+      padding-right: 7px;
+    }
+
+    @media (max-width: 500px) {
+      #links {
+        display: none;
+      }
+
+      #Menu {
+
+        display: block;
+        cursor: pointer;
+
+      }
+    }
+
+
+  
+    footer {
+    
+      position: relative;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(0, 0 , 0 , 0.7);
+      color:rgb(241, 241, 241);
+      text-align: left;
+      padding: 1%;
+      min-height: 80px;
+      font-family: 'Neuton', serif;
+     
+      }
+
+  
+    #main
+    {
+      display: flex;
+      align-items: center;
+      padding: 2%;
+    }
+
+    
+      section p {
+
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 120%;;
+      }
+
+
+      #nome_album {
+
+          margin-left: 10%;
+          font-size: 100%;
+          border-radius: 90px;
+          height: 40px;
+      }
+
+    
+      .id
+      {
+        display: none;
+      }
+
+      body {
+
+        min-height: 100vh; 
+        margin: 0;  
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        }
+
+     .visualizza_album
+     {
+       text-align: center;
+       display: inline-table;
+       width: 45%;
+       background-color: var(--primary-color);
+       padding-bottom: 3%;
+       margin-left: 2.4%;
+       margin-right: 2.4%;
+       margin-bottom: 3%;
+       margin-top: 3%;
+       border-radius: 20px;
+     }
+
+    .cover
+     {
+       width: 40%;
+       padding: 2%;        
+     }
+
+     .cuore_pieno, .lista
+     {
+       display: inline-block;
+       margin: auto;
+       padding-left: 10px;
+       padding-top: 1%;
+       width: 5%;
+     }
+
+     .descrizione
+     {
+       position: relative;
+       top: auto;
+       text-align: center;
+       font-family: 'Courier New', Courier, monospace;
+       font-style: italic;
+       color:white;
+       padding-bottom: 3%;
+
+     }
+
+
+     .visualizza_album span
+     {
+       display: block;
+       text-align: center;
+       height: min-content;
+       font-size: 120%;
+       font-family: Verdana, Tahoma, sans-serif;
+       color:whitesmoke;
+     }
